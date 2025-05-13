@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+ <head>
+
+  <meta charset="utf-8">
+  <title>{% block title %} {% endblock %}</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css"
+>
+ </head>
+ <body>
+ 
+   {% block content %}
+   {% endblock %}
+
+ </body>
+ <header>
+ <nav>
+   <ul>
+     <li>Flask Demo</li>
+
+ </ul>
+    <ul>
+       <li><a href="/">home</a></li>
+       <li><a href="/about">about</a></li>
+       <li><a href="/random">random</a></li>
+    </ul>
+ </nav>
+ </header>
+</html>
