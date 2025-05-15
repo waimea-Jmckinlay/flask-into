@@ -1,9 +1,18 @@
 {% extends 'pages/base.jinja' %}
 
 {%block title%}
-Flask Demo - Hello!
+Flask Demo - random number
 {% endblock %}
+
 {% block content %}
-<h1>Hello, world </h1>
+
+<h1> A lovely random number</h1>
 <P> This is my second Flask websight</P>
+<article id="Random">
+     {{ number }}
+
+</article>
+
+
+
 {%endblock%}
